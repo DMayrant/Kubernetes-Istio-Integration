@@ -39,5 +39,5 @@ kubectl get ns -L istio-injection
 
 helm uninstall istio-base istio/base -n istio-system 
 
-
+![image alt](https://github.com/DMayrant/Kubernetes-Istio-Integration/blob/main/Screenshot%202569-03-10%20at%2016.52.25.png?raw=true)
 
