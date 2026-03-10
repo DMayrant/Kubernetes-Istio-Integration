@@ -1,5 +1,5 @@
 # Istio Service mesh 
-This service provides your workloads with additional 
+This service provides your workloads with an additional sidecar pod for
 
 - Observability 🔭
 - mTLS 🔐
