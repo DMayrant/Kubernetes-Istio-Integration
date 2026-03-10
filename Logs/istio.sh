@@ -24,6 +24,7 @@ echo "Install complete ✅"
 # Uninstall istio service-mesh and remove ns label
 echo "Uninstalling Istio"
 helm uninstall istio-base istio/base -n istio-system  
+helm uninstall istiod istio/istiod -n istio-system
 kubectl label namespace default istio-injection-
 kubectl get ns default --show-lables
 echo "Uninstall complete ✅"
